@@ -1,0 +1,7 @@
+---
+# vars file for scope
+scope_url: '{{ scope_mirror }}/{{ scope_ver }}/scope'
+scope_ver_exe: '{{ scope_install_dir }}/scope-{{ scope_ver }}'
+scope_link: '{{ scope_install_dir }}/scope'
+scope_checksum: '{{ scope_checksums[scope_ver] }}'
+

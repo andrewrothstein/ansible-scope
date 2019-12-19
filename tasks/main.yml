@@ -1,0 +1,16 @@
+---
+- name: download...
+  become: yes
+  become_user: root
+  get_url:
+    url: '{{ scope_url }}'
+    dest: '{{ scope_ver_exe }}'
+    mode: 0755
+    checksum: '{{ scope_checksum }}'
+- name: link...
+  become: yes
+  become_user: root
+  file:
+    src: '{{ scope_ver_exe }}'
+    dest: '{{ scope_link }}'
+    state: link
