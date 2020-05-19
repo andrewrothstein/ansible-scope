@@ -1,9 +1,11 @@
 ---
 # defaults file for scope
-scope_ver: v1.12.0
+scope_ver: v1.13.1
 scope_install_dir: /usr/local/bin
 scope_mirror: https://github.com/weaveworks/scope/releases/download
 
 scope_checksums:
   # https://github.com/weaveworks/scope/releases/download/v1.12.0/scope
   v1.12.0: sha256:0f21c11e40996fbf3f518e03aedba4d3fee6953f533418732f4933b249303842
+  # https://github.com/weaveworks/scope/releases/download/v1.13.1/scope
+  v1.13.1: sha256:48766ebcbc4ea25b73392945902fa322afd11ec474453c1601aa4aa1856494be
